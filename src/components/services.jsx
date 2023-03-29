@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { FaCode } from "react-icons/fa";
-import { BiPaint, IconName } from "react-icons/bi";
+import { BiPaint } from "react-icons/bi";
 function Services() {
   return (
     <div>

@@ -1,7 +1,6 @@
 import React from "react";
 import {  Button, Card, Col, Container, Row } from "react-bootstrap";
 import { FaCode } from "react-icons/fa";
-import profile from "./images/profile.jpg";
 
 function Portfolio() {
   return (
