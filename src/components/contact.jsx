@@ -57,10 +57,11 @@ function Contact() {
 
                     <Row className="m-2">
                       <Col md="12">
-                        <Input
+                        <textarea
+                          className="form-control"
                           placeholder="Your Message"
                           style={{ minHeight: "200px", background: "#141414" }}
-                        ></Input>
+                        ></textarea>
                       </Col>
                     </Row>
                     <div
