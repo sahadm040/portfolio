@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function SNavbar() {
   return (
-    <Navbar bg="light" expand="lg"  fixed="top">
+    <Navbar className="container " bg="light" expand="lg" fixed="top">
       <Container fluid>
         <Navbar.Brand href="#" style={{ color: "#2fa56e", fontWeight: "bold" }}>
           portfolio.

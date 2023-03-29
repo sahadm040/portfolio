@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
-import {  Col, Container, Row } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { MdFacebook } from "react-icons/md";
-
 
 function Footer() {
   return (
@@ -20,46 +19,40 @@ function Footer() {
             </p>
           </Col>
 
-          <Col md="6">
-            <Row>
-              <Col md="4">
-                <h5>Resources</h5>
-                <p className="footer-right text-muted">Privacy policy</p>
-                <p className="footer-right text-muted">
-                  Terms and Condition
-                </p>
-              </Col>
-              <Col md="3">
-                <h5>Company</h5>
-                <p className="footer-right text-muted">About us</p>
-                <p className="footer-right text-muted">Features</p>
-              </Col>
-              <Col md="3">
-                <h5>Social Links</h5>
-                <Link to="https://www.google.com/" className="icon">
-                  <MdFacebook />
-                </Link>
-                <Link
-                  to="https://www.google.com/"
-                  className="icon"
-                >
-                  <BsInstagram />
-                </Link>
-                <Link
-                  to="https://www.google.com/"
-                  className="icon"
-                >
-                  <BsTwitter />
-                </Link>
-                
+              <Col md="6">
+                <Row>
+                  <Col md="4">
+                    <h5>Resources</h5>
+                    <p className="footer-right text-muted">Privacy policy</p>
+                    <p className="footer-right text-muted">
+                      Terms and Condition
+                    </p>
+                  </Col>
+                  <Col md="3">
+                    <h5>Company</h5>
+                    <p className="footer-right text-muted">About us</p>
+                    <p className="footer-right text-muted">Features</p>
+                  </Col>
+                  <Col md="3">
+                    <h5>Social Links</h5>
+                    {/* <Link to="https://www.google.com/" className="icon"> */}
+                      <MdFacebook />
+                    {/* </Link> */}
+                    {/* <Link to="https://www.google.com/" className="icon"> */}
+                      <BsInstagram />
+                    {/* </Link> */}
+                    {/* <Link to="https://www.google.com/" className="icon"> */}
+                      <BsTwitter />
+                    {/* </Link> */}
+                  </Col>
+                </Row>
               </Col>
             </Row>
-          </Col>
-        </Row>
-      </Container>
+          </Container>
+        </div>
+      </section>
     </div>
-  </section></div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

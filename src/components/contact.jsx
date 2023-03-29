@@ -13,43 +13,69 @@ function Contact() {
             background: "#141414",
             display: "flex",
             flexDirection: "column",
-            alignItems: "center",
+            // alignItems: "center",
             justifyContent: "center",
           }}
         >
-          <h2 style={{ fontWeight: "bolder" }}>
-            Contact<span style={{ color: "#2fa56e" }}> Me</span>
-          </h2>
-          <div>
-            <Form>
-              <Row className="m-1">
-                <Col md="5" className="m-1">
-                  <Input placeholder="Full Name"></Input>
-                </Col>
-                <Col md="5" className="m-1">
-                  <Input placeholder="Email Address"></Input>
-                </Col>
-              </Row>
+          <Container>
+            <Card className="p-3 mt-5" bg="black">
+              <h2 style={{ fontWeight: "bolder", textAlign: "center" }}>
+                Contact<span style={{ color: "#2fa56e" }}> Me</span>
+              </h2>
+              <Container>
+                <div>
+                  <Form>
+                    <Row className="pt-4 m-2">
+                      <Col md="6" className="mb-1">
+                        <Input
+                          placeholder="Full Name"
+                          style={{ background: "#141414" }}
+                        ></Input>
+                      </Col>
+                      <Col md="6" className="">
+                        <Input
+                          placeholder="Email Address"
+                          style={{ background: "#141414" }}
+                        ></Input>
+                      </Col>
+                    </Row>
 
-              <Row className="m-1">
-                <Col md="5" className="m-1">
-                  <Input placeholder="Mobile Number"></Input>
-                </Col>
-                <Col md="5" className="m-1">
-                  <Input placeholder="Email Subject"></Input>
-                </Col>
-              </Row>
+                    <Row className="m-2">
+                      <Col md="6" className="mb-1">
+                        <Input
+                          placeholder="Mobile Number"
+                          style={{ background: "#141414" }}
+                        ></Input>
+                      </Col>
+                      <Col md="6" className="">
+                        <Input
+                          placeholder="Email Subject"
+                          style={{ background: "#141414" }}
+                        ></Input>
+                      </Col>
+                    </Row>
 
-              <Row className="m-1">
-                <Col md="10" className="m-1">
-                  <Input placeholder="Your Message"></Input>
-                </Col>
-              </Row>
-              <div className="d-flex" style={{ justifyContent: "center" }}>
-                <Button className="btn btn-success">Sent Message</Button>
-              </div>
-            </Form>
-          </div>
+                    <Row className="m-2">
+                      <Col md="12">
+                        <Input
+                          placeholder="Your Message"
+                          style={{ minHeight: "200px", background: "#141414" }}
+                        ></Input>
+                      </Col>
+                    </Row>
+                    <div
+                      className="d-flex"
+                      style={{ justifyContent: "center" }}
+                    >
+                      <Button className="btn btn-success m-2">
+                        Sent Message
+                      </Button>
+                    </div>
+                  </Form>
+                </div>
+              </Container>
+            </Card>
+          </Container>
         </div>
       </section>
     </div>

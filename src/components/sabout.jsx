@@ -31,26 +31,29 @@ function Sabout() {
             }}
           >
             <img
+              className="mb-4"
               src={profile}
               style={{ width: "250px", height: "250px" }}
               alt={""}
             />
           </Col>
-          <Col md="6" className="mt-4">
-            <h2 style={{ fontWeight: "bolder" }}>
-              About<span style={{ color: "#2fa56e" }}> Me</span>
-            </h2>
-            <h3>Frontend Developer</h3>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s,{" "}
-            </p>
-            <div className="d-flex" style={{ alignSelf: "center" }}>
-              <Button className="section-btn">Read More</Button>
-            </div>
+          <Col md="6">
+            <Container>
+              <h2 style={{ fontWeight: "bolder" }}>
+                About<span style={{ color: "#2fa56e" }}> Me</span>
+              </h2>
+              <h3>Frontend Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,{" "}
+              </p>
+              <div className="d-flex" style={{ justifyContent: "center" }}>
+                <Button className="section-btn">Read More</Button>
+              </div>
+            </Container>
           </Col>
         </Row>
       </Container>
