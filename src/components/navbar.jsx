@@ -7,7 +7,10 @@ function SNavbar() {
   return (
     <Navbar className="container " bg="light" expand="lg" fixed="top">
       <Container fluid>
-        <Navbar.Brand href="#" style={{ color: "#2fa56e", fontWeight: "bold" }}>
+        <Navbar.Brand
+          href="home"
+          style={{ color: "#2fa56e", fontWeight: "bold" }}
+        >
           portfolio.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,9 +20,9 @@ function SNavbar() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">about</Nav.Link>
-            <NavDropdown title="service" id="navbarScrollingDropdown">
+            <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="about">about</Nav.Link>
+            <NavDropdown title="service" id="services">
               <NavDropdown.Item href="#action3">
                 {"web development"}
               </NavDropdown.Item>
@@ -29,8 +32,8 @@ function SNavbar() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#">portfolio</Nav.Link>
-            <Nav.Link href="#contact">contact</Nav.Link>
+            <Nav.Link href="portfolio">portfolio</Nav.Link>
+            <Nav.Link href="contact">contact</Nav.Link>
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control

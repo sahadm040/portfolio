@@ -6,6 +6,7 @@ function Portfolio() {
   return (
     <div
       className="p-2"
+      id="portfolio"
       style={{
         height: "100vh",
         color: "white",

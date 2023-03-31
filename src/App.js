@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Contact from "./components/contact";
 import SNavbar from "./components/navbar";
@@ -9,18 +10,21 @@ import Sservice from "./components/sservice";
 function App() {
   return (
     <div className="App">
-      {/* <Container> */}
-      <SNavbar />
-      <ShomeSection />
+      <Routes>
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/home" element={<ShomeSection />} />
+        <Route path="/about" element={<Sabout />} />
+        <Route path="/service" element={<Sservice />} />
+        <Route path="/footer" element={<Sfooter />} />
+        <Route path="/navbar" element={<SNavbar />} />
+      </Routes>
+
       {/* <HomeSection /> */}
-      <Sabout />
+
       {/* <About /> */}
-      <Sservice />
+
       {/* <Services /> */}
       {/* <Portfolio /> */}
-      <Contact />
-      {/* </Container> */}
-      <Sfooter />
     </div>
   );
 }
