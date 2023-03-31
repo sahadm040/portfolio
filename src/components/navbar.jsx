@@ -30,7 +30,7 @@ function SNavbar() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#">portfolio</Nav.Link>
-            <Nav.Link href="#">contact</Nav.Link>
+            <Nav.Link href="#contact">contact</Nav.Link>
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control
