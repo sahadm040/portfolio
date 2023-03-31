@@ -60,7 +60,11 @@ function Contact() {
                         <textarea
                           className="form-control"
                           placeholder="Your Message"
-                          style={{ minHeight: "200px", background: "#141414" }}
+                          style={{
+                            minHeight: "200px",
+                            background: "#141414",
+                            color: "white",
+                          }}
                         ></textarea>
                       </Col>
                     </Row>
