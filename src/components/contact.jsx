@@ -29,15 +29,13 @@ function Contact() {
                       <Col md="6" className="mb-1">
                         <Input
                           placeholder="Full Name"
-                          style={{ background: "#141414",
-                            color: "white", }}
+                          style={{ background: "#141414", color: "white" }}
                         ></Input>
                       </Col>
                       <Col md="6" className="">
                         <Input
                           placeholder="Email Address"
-                          style={{ background: "#141414",
-                            color: "white", }}
+                          style={{ background: "#141414", color: "white" }}
                         ></Input>
                       </Col>
                     </Row>
@@ -46,15 +44,13 @@ function Contact() {
                       <Col md="6" className="mb-1">
                         <Input
                           placeholder="Mobile Number"
-                          style={{ background: "#141414" ,
-                            color: "white",}}
+                          style={{ background: "#141414", color: "white" }}
                         ></Input>
                       </Col>
                       <Col md="6" className="">
                         <Input
                           placeholder="Email Subject"
-                          style={{ background: "#141414" ,
-                            color: "white",}}
+                          style={{ background: "#141414", color: "white" }}
                         ></Input>
                       </Col>
                     </Row>
