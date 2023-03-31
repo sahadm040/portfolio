@@ -1,5 +1,4 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
 import Contact from "../components/contact";
 import SNavbar from "../components/navbar";
 import Sabout from "../components/sabout";
